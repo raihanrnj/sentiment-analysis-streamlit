@@ -11,7 +11,7 @@ st.sidebar.title("Some of the options of US Airlines ")
 st.markdown("## Hey!, this is place where you can see about the various visualization of Sentimental Analysis of US Airlines tweets 🐦 ")
 st.sidebar.markdown("This is the description on making of Sentiment Analysis 🐦 ")
 
-data_path = ("C:\\Users\\acer\\anaconda3\\Lib\\site-packages\\streamlit\\hello\\Tweets.csv")
+data_path = ("dataset.csv")
 
 @st.cache(persist=True)
 def load_data():
